@@ -6,9 +6,8 @@ library('sna')
 
 ### Enter the data
 
-net <- read.csv('')
-net <- matrix(sample(c(1,0),100,rep=T),nrow=10)
-rownames(net) <- colnames(net) <- paste('sp',1:nrow(net),sep='')
+net <- read.csv('http://people.fas.harvard.edu/~matthewklau/getting_to_know_you/data/gtkyNet.csv')
+rownames(net) <- colnames(net)
 
 ### Take a look
 
