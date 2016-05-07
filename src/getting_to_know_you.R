@@ -23,9 +23,8 @@ gplot(net)
 
 ### Tweaks
 
-gplot(net,vertex.col='pink')
 gplot(net,displaylabels=TRUE)
+gplot(net,vertex.col='pink')
 
 ### More...
-
 ?gplot
